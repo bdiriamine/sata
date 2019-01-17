@@ -1,0 +1,32 @@
+<!-- Generated template for the AddProductComponent component -->
+<ion-header>
+  <ion-navbar color="white">
+    <ion-title>Add Product</ion-title>
+    <ion-buttons start>
+      <button color="color2" ion-button (click)="dismiss()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Product name</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Price</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Description</ion-label>
+      <ion-textarea type="text"></ion-textarea>
+    </ion-item>
+    <ion-buttons>
+      <button ion-button icon-left (click)="uploadImage()" [disabled]="lastImage === null">
+        <ion-icon name="cloud-upload"></ion-icon>Upload Photos
+      </button>
+    </ion-buttons>
+  </ion-list>
+</ion-content>

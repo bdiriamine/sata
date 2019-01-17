@@ -1,0 +1,47 @@
+
+<ion-header no-border>
+  <ion-navbar color="white">
+    <ion-title>Chat</ion-title>
+    <ion-buttons start>
+      <button color="color2" ion-button (click)="dismiss()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!-- Body Part -->
+<ion-content id="chatbox-v1">
+  <!-- Chat hostory -->
+  <ion-list>
+    <div *ngFor="let item of dataSet">
+    <ion-item class="receiver" text-wrap *ngIf="item.user_id_from == userDetails.id;">
+      <ion-avatar item-left>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <p>{{item.content}}</p>
+      <p text-right class="time">{{item.date_created}}</p>
+    </ion-item>
+      <ion-item class="sender" text-wrap *ngIf="item.user_id_from != userDetails.id;">
+      <ion-avatar item-right>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <p>{{item.content}}</p>
+      <p text-right class="time">{{item.date_created}}</p>
+    </ion-item>
+
+    </div>
+  </ion-list>
+</ion-content>
+
+<!-- Footer part -->
+<ion-footer>
+  <ion-toolbar position="bottom">
+    <ion-textarea placeholder="Type your message here" [(ngModel)]="messageData.body"></ion-textarea>
+    <ion-buttons end>
+      <button color="color2" clear icon-only end (click)="sendMessage();">
+        <ion-icon name="send"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

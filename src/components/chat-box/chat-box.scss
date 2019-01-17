@@ -1,0 +1,60 @@
+chat-box {
+    #chatbox-v1 {
+        background: url('https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/20.jpg') no-repeat center center fixed;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        margin-top: -1px;
+        padding-top: 1px;
+        margin-bottom: -1px;
+        width: auto;
+        height: auto;}
+        .receiver {
+            background: transparent;
+            border: none;
+            margin-top: 10px;
+            .item-inner {
+                border: 1px solid #bdbdbd;
+                background: #ffffff;
+                color: #000000;
+                padding: 5px;
+                border-radius: 10px;
+                margin-right: 5px;
+                p {
+                    color: #000000;
+                }
+                .time {
+                    padding-top: 5px;
+                    font-size: 12px;
+                    color: #424242 !important;
+                }
+            }
+        }
+        .sender {
+            background: transparent;
+            margin-top: 10px;
+            border: none;
+            .input-wrapper {
+                color: #000000;
+                text-align: right;
+                border: 1px solid #bdbdbd;
+                background: #dcf8c7;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 5px;
+                p {
+                    color: #000000;
+                }
+                .time {
+                    padding-top: 5px;
+                    font-size: 12px;
+                    color: #424242 !important;
+                    text-align: left;
+                }
+            }
+        }
+}

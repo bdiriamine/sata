@@ -1,0 +1,76 @@
+<ion-header>
+  <!--  <ion-toolbar>
+      <ion-title>
+        Add Post
+      </ion-title>
+      <ion-buttons start>
+        <button ion-button (click)="dismiss()">
+          <span ion-text color="primary" showWhen="ios">Cancel</span>
+          <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>-->
+</ion-header>
+
+<ion-content>
+  <!-- <ion-list>
+     <ion-item>
+       <ion-avatar item-start>
+         <img src="" alt="logo">
+       </ion-avatar>
+       <h2>{{userDetails.first_name}}</h2>
+       <button ion-button item-end (click)="feedUpdate();">POST</button>
+     </ion-item>
+     <textarea #updatebox autofocus rows="15" cols="50" placeholder="Write something..." [(ngModel)]="userPostData.feed"></textarea>
+     <ion-item col-6 *ngFor="let photo of photos; let id = index" no-margin>
+       <ion-card id="imagepreview" >
+         <ion-icon name="trash" small class="deleteIcon" (click)="deletePhoto(id)"></ion-icon>
+         <img [src]="photo" *ngIf="photo" style="width:100px;height: auto;"  />
+       </ion-card>
+     </ion-item>
+   </ion-list>-->
+  <div id="modal-post" >
+    <div><br></div>
+    <div class="modal-content" style="padding-left:0px; padding-right:0px;background-color: #F8F8F8">
+      <div class="row">
+        <div class="col s3">
+          <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/avatar.png" height="50" alt="" class="circle">
+        </div>
+        <div class="col s5">
+          <div class="row" style="margin-bottom:0px">
+            {{userDetails.first_name}}
+          </div>
+        </div>
+        <div class="col s2">
+          <button ion-button id="post" class="waves-effect waves-light btn-small " style="margin-top:10px"
+                  (click)="feedUpdate();">POST
+          </button>
+        </div>
+      </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea" style="border: none" placeholder="Write Something"
+                      [(ngModel)]="userPostData.feed"></textarea>
+          </div>
+        </div>
+      <ion-item col-6 *ngFor="let photo of photos; let id = index" no-margin>
+        <ion-card id="imagepreview">
+          <ion-icon name="trash" small class="deleteIcon" (click)="deletePhoto(id)"></ion-icon>
+          <img [src]="photo" *ngIf="photo" style="width:100px;height: auto;"/>
+        </ion-card>
+      </ion-item>
+    </div>
+    <div class="modal-footer grey-text">
+      <ion-item style="background-color: #f5f5f5;">
+        <button style="margin-right: 15px;" ion-button icon-only color="light" (click)="takePhoto(1)"
+                [disabled]="(photos?.length > 0)">
+          <ion-icon name="camera"></ion-icon>
+        </button>
+        <button style="margin-right: 15px;" ion-button icon-only color="light" (click)="takePhoto(0)"
+                [disabled]="(photos?.length > 0)">
+          <ion-icon name="image"></ion-icon>
+        </button>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

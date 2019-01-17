@@ -1,0 +1,61 @@
+<ion-header no-border>
+  <ion-navbar color="white">
+    <ion-title>Chat</ion-title>
+    <ion-buttons start>
+      <button color="color2" ion-button (click)="dismiss()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!-- Body Part -->
+<ion-content id="chatbox-v1">
+  <!-- Chat hostory -->
+  <ion-list>
+    <ion-item class="receiver" text-wrap>
+      <ion-avatar item-left>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <h2>Name</h2>
+      <p>I've had a pretty messed up day. If we just..</p>
+      <p text-right class="time">3:23pm</p>
+    </ion-item>
+    <ion-item class="sender" text-wrap>
+      <ion-avatar item-right>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <h2>Name</h2>
+      <p>I've had a pretty messed up day. If we just.</p>
+      <p text-right class="time">3:23pm</p>
+    </ion-item>
+    <ion-item class="sender" text-wrap>
+      <ion-avatar item-right>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <h2>Name</h2>
+      <p>I've had a pretty messed up day. If we just.</p>
+      <p text-right class="time">3:23pm</p>
+    </ion-item>
+    <ion-item class="receiver" text-wrap>
+      <ion-avatar item-left>
+        <img src="https://s3-us-west-2.amazonaws.com/fulcrumy-ionic2/19.jpg">
+      </ion-avatar>
+      <h2>Name</h2>
+      <p>I've had a pretty messed up day. If we just..</p>
+      <p text-right class="time">3:23pm</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<!-- Footer part -->
+<ion-footer>
+  <ion-toolbar position="bottom">
+    <ion-textarea placeholder="Type your message here"></ion-textarea>
+    <ion-buttons end>
+      <button color="color2" clear icon-only end>
+        <ion-icon name="send"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

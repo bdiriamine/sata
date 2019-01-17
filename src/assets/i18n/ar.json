@@ -1,0 +1,146 @@
+{
+  "_comment": "Arabic Language",
+  "LANDING_PAGE": {
+    "REGISTRATION": "التسجيل",
+    "LOGIN": "تسجيل الدخول",
+    "SKIP": "تخطى"
+  },
+  "REGISTRATION": {
+    "USERNAME": "اسم المستخدم",
+    "EMAIL": "البريد الإلكتروني",
+    "PASSWORD": "كلمه السر",
+    "CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+    "CREATE_ACCOUNT": "إصنع حساب",
+    "SKIP": "تخطى"
+  },
+  "LOGIN": {
+    "EMAIL": "البريد الإلكتروني",
+    "PASSWORD": "كلمه السر",
+    "LOGIN": "تسجيل الدخول",
+    "SKIP": "تخطى",
+    "FORGET_PASSWORD": "هل نسيت كلمة المرور"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "هل نسيت كلمة المرور",
+    "SUBTITLE": "أدخل عنوان البريد الالكتروني",
+    "EMAIL": "البريد الإلكتروني",
+    "CANCEL": "إلغاء",
+    "SEND": "إرسال"
+  },
+  "PROFILE": {
+    "TITLE": "الملف الشخصي",
+    "NAME": "Afroza Yasmin",
+    "DESIGNATION": "مهندس برمجيات",
+    "DETAILS": "أنا التفصيل المنحى تطوير البرمجيات مع تجربة رائدة وتعمل في فرق على المشاريع المعقدة باستخدام مجموعة واسعة من التقنيات مثل NodeJs، AngularJs، C #، جافا سكريبت الخ دائما أحاول أن أقدم أفضل ما لدي للعمل في بيئة مليئة بالتحديات باستخدام كل ما عندي المهارات والجهود المبذولة لاستكشاف في مختلف المجالات وتسعى فرصة للتعلم المستمر.",
+    "TIMELINE": "الجدول الزمني",
+    "ABOUTME": "عني",
+    "FRIENDS": "اصحاب",
+    "GALLERY": "صالة عرض",
+    "ABOUTME_TAB": {
+      "BASIC_INFOS": "بقية المقال الأساسية",
+      "CONTACT_INFOS": "الاتصال بقية المقال",
+      "CHECK_INS": "تحقق الإضافية"
+    }
+  },
+  "CALENDAR": {
+    "TITLE": "التقويم",
+    "CALENDAR_VIEW": "طريقة عرض التقويم",
+    "CALENDAR_LIST": "قائمة التقويم"
+  },
+  "GOOGLE_MAP": {
+    "TITLE": "خرائط جوجل",
+    "STANDARD": "اساسي",
+    "SILVER": "فضة",
+    "NIGHT": "ليل",
+    "DARK": "داكن",
+    "AUBERGINE": "باذنجان"
+  },
+  "CHART": {
+    "TITLE": "خريطة",
+    "BAR": "شريط",
+    "DOUGHNUT": "تبرع",
+    "PIE": "فطيرة",
+    "POLAR": "قطبي",
+    "DYNAMIC": "ديناميكي",
+    "RADAR": "رادار"
+  },
+  "ECOMMERCE": {
+    "TITLE": "التجارة الإلكترونية"
+  },
+  "LATEST_NEWS": {
+    "TITLE": "أحدث الأخبار"
+  },
+  "LANGUAGES": [
+    {
+      "ID": "en",
+      "VALUE": "الإنجليزية"
+    },
+    {
+      "ID": "es",
+      "VALUE": "الأسبانية"
+    },
+    {
+      "ID": "ar",
+      "VALUE": "عربى"
+    },
+    {
+      "ID": "zh",
+      "VALUE": "صينى"
+    }
+  ],
+  "SETTINGS": {
+    "TITLE": "إعدادات",
+    "LANGUAGE": "لغة",
+    "NOTIFICATION": "إعلام",
+    "PUSH_NOTIFICATION": "إعلام دفع",
+    "MESSAGE_PREVIEW": "معاينة الرسالة",
+    "NEW_MESSAGE_POPUP": "لقد ظهرت رساله جديده",
+    "ADJUST_DISPLAY": "ضبط العرض"
+  },
+  "SEARCH": {
+    "TITLE": "بحث"
+  },
+  "CONTACT_US": {
+    "TITLE": "اتصل بنا",
+    "GET_IN_TOUCH": "ابقى على تواصل",
+    "ADDRESS": "عنوان",
+    "CONTACT_FORM": "نموذج الاتصال",
+    "SEND_MESSAGE": "إرسال رسالة",
+    "NAME": "اسم",
+    "EMAIL": "البريد الإلكتروني",
+    "YOUR_MESSAGE": "رسالتك"
+  },
+  "ABOUTUS": {
+    "TITLE": "معلومات عنا",
+    "SUBTITLE": "نقطة ارتكاز هو نظيفة وأيوني 2 التطبيق."
+  },
+  "COMPONENTS": {
+    "TITLE": "مكون",
+    "PROFILE": "الملف الشخصي",
+    "CALENDAR": "التقويم",
+    "MAP": "خريطة",
+    "CHART": "خريطة",
+    "ECOMMERCE": "التجارة الإلكترونية",
+    "NEWS_FEED": "أخبار الأعلاف",
+    "CHAT": "دردشة",
+    "LATEST_NEWS": "أحدث الأخبار",
+    "ABOUTUS": "معلومات عنا",
+    "CONTACTUS": "اتصل بنا"
+  },
+  "MENU_ITEMS": {
+    "PROFILE": "الملف الشخصي",
+    "CALENDAR": "التقويم",
+    "GOOGLEMAP": "خرائط جوجل",
+    "CHART": "خريطة",
+    "ECOMMERCE": "التجارة الإلكترونية",
+    "LATESTNEWS": "أحدث الأخبار",
+    "NEWSFEED": "مصادر الأخبار",
+    "CHAT": "دردشة",
+    "COMOPNENT": "مكون",
+    "ABOUTUS": "معلومات عنا",
+    "CONTACTUS": "اتصل بنا",
+    "SETTINGS": "إعدادات",
+    "SEARCH": "بحث"
+  },
+  "LOGOUT": "الخروج"
+}

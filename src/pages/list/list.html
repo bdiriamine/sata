@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Inbox</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  <ion-grid id="dim">
+    <ion-row >
+      <ion-col width-40  ><button ion-button small  id="tn-flowing" >Mail </button></ion-col>
+      <ion-col width-70  ><button ion-button  small  id="tn-flowing" (click)="messageopen()">Message </button></ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <chat *ngIf="test==true"></chat>
+</ion-content>

@@ -1,0 +1,146 @@
+{
+  "_comment": "Spanish Language",
+  "LANDING_PAGE": {
+    "REGISTRATION": "Registro",
+    "LOGIN": "INICIAR SESIÓN",
+    "SKIP": "OMITIR"
+  },
+  "REGISTRATION": {
+    "USERNAME": "Nombre de usuario",
+    "EMAIL": "CORREO ELECTRÓNICO",
+    "PASSWORD": "CONTRASEÑA",
+    "CONFIRM_PASSWORD": "Confirmar contraseña",
+    "CREATE_ACCOUNT": "Crear una cuenta",
+    "SKIP": "OMITIR"
+  },
+  "LOGIN": {
+    "EMAIL": "CORREO ELECTRÓNICO",
+    "PASSWORD": "CONTRASEÑA",
+    "LOGIN": "INICIAR SESIÓN",
+    "SKIP": "OMITIR",
+    "FORGET_PASSWORD": "Se te olvidó tu contraseña"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "Se te olvidó tu contraseña",
+    "SUBTITLE": "Introducir la dirección de correo electrónico",
+    "EMAIL": "CORREO ELECTRÓNICO",
+    "CANCEL": "Cancelar",
+    "SEND": "Enviar"
+  },
+  "PROFILE": {
+    "TITLE": "Perfil",
+    "NAME": "Afroza Yasmin",
+    "DESIGNATION": "Ingeniero de software",
+    "DETAILS": "Soy desarrollador de software orientado al detalle con experiencia liderando y trabajando en equipos en proyectos complejos usando una amplia gama de tecnologías como NodeJs, AngularJs, C #, JavaScript, etc. Siempre trato de dar mi mejor esfuerzo para trabajar en un ambiente desafiante usando todo mi Habilidades y esfuerzos para explorar en diferentes campos y buscar una oportunidad para el aprendizaje continuo.",
+    "TIMELINE": "Cronograma",
+    "ABOUTME": "Sobre mi",
+    "FRIENDS": "Amigos",
+    "GALLERY": "GALERÍA",
+    "ABOUTME_TAB": {
+      "BASIC_INFOS": "Informaciones Básicas",
+      "CONTACT_INFOS": "Contacto Informaciones",
+      "CHECK_INS": "Check-Ins"
+    }
+  },
+  "CALENDAR": {
+    "TITLE": "Calendario",
+    "CALENDAR_VIEW": "Vista del calendario",
+    "CALENDAR_LIST": "Lista de calendarios"
+  },
+  "GOOGLE_MAP": {
+    "TITLE": "Mapa de Google",
+    "STANDARD": "Estándar",
+    "SILVER": "Plata",
+    "NIGHT": "noche",
+    "DARK": "Oscuro",
+    "AUBERGINE": "Berenjena"
+  },
+  "CHART": {
+    "TITLE": "Gráfico",
+    "BAR": "Bar",
+    "DOUGHNUT": "Rosquilla",
+    "PIE": "Tarta",
+    "POLAR": "Polar",
+    "DYNAMIC": "dinámica",
+    "RADAR": "radar"
+  },
+  "ECOMMERCE": {
+    "TITLE": "Ecommerce"
+  },
+  "LATEST_NEWS": {
+    "TITLE": "Últimas noticias"
+  },
+  "LANGUAGES": [
+    {
+      "ID": "en",
+      "VALUE": "Inglés"
+    },
+    {
+      "ID": "es",
+      "VALUE": "Español"
+    },
+    {
+      "ID": "ar",
+      "VALUE": "Arábica"
+    },
+    {
+      "ID": "zh",
+      "VALUE": "chino"
+    }
+  ],
+  "SETTINGS": {
+    "TITLE": "Ajustes",
+    "LANGUAGE": "Idioma",
+    "NOTIFICATION": "Notificación",
+    "PUSH_NOTIFICATION": "Notificación de inserción",
+    "MESSAGE_PREVIEW": "Vista previa del mensaje",
+    "NEW_MESSAGE_POPUP": "Nuevo mensaje emergente",
+    "ADJUST_DISPLAY": "Ajustar pantalla"
+  },
+  "SEARCH": {
+    "TITLE": "Buscar"
+  },
+  "CONTACT_US": {
+    "TITLE": "Contáctenos",
+    "GET_IN_TOUCH": "Estar en contacto",
+    "ADDRESS": "Dirección",
+    "CONTACT_FORM": "Formulario de contacto",
+    "SEND_MESSAGE": "Enviar mensaje",
+    "NAME": "Nombre",
+    "EMAIL": "Email",
+    "YOUR_MESSAGE": "Tu mensaje"
+  },
+  "ABOUTUS": {
+    "TITLE": "Sobre nosotros",
+    "SUBTITLE": "Fulcrum es una aplicación limpia y jónica 2."
+  },
+  "COMPONENTS": {
+    "TITLE": "Componente",
+    "PROFILE": "Perfil",
+    "CALENDAR": "Calendario",
+    "MAP": "Mapa",
+    "CHART": "Gráfico",
+    "ECOMMERCE": "Ecommerce",
+    "NEWS_FEED": "Noticias",
+    "CHAT": "Charla",
+    "LATEST_NEWS": "Últimas noticias",
+    "ABOUTUS": "Sobre nosotros",
+    "CONTACTUS": "Contáctenos"
+  },
+  "MENU_ITEMS": {
+    "PROFILE": "Perfil",
+    "CALENDAR": "Calendario",
+    "GOOGLEMAP": "Mapa de Google",
+    "CHART": "Gráfico",
+    "ECOMMERCE": "Ecommerce",
+    "LATESTNEWS": "Últimas noticias",
+    "NEWSFEED": "Noticias",
+    "CHAT": "Charla",
+    "COMOPNENT": "Componente",
+    "ABOUTUS": "Sobre nosotros",
+    "CONTACTUS": "Contáctenos",
+    "SETTINGS": "Settings",
+    "SEARCH": "Search"
+  },
+  "LOGOUT": "Cerrar sesión"
+}

@@ -1,0 +1,82 @@
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: center;    ;
+    top: 36%;
+    font-size: 2.0em;
+    width: 50%;
+    
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+ion-button {
+  color:#04438c;
+}
+ion-icon
+{
+  color:#04438c;
+}
+button
+{
+  color:#04438c;
+  background:transparent;
+}
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:70px;
+    -moz-border-radius:70px;
+    border-radius:70px;
+    border-background:#fff;
+    width:120px;
+    height:120px;
+     border: 6px solid rgb(244, 89, 66);
+
+   }
+   .center {
+   display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+height: 100%;
+   }
+   ion-avatar.couverture  {
+width:100% !important;
+height: 100% !important;
+max-width: 150px !important;  //any size
+max-height: 150px !important; //any size
+
+}
+.rounded-btn {
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        color: #000;
+        background: rgb(244, 89, 66);
+        border: 2px solid rgb(244, 89, 66);
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 0px;
+            text-align: center;
+
+    }
+    .rounded-btn:hover,
+    .rounded-btn:focus,
+    .rounded-btn:active,
+    .rounded-btn:visited {
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(244, 89, 66);
+        outline: none;
+    }
+}
+

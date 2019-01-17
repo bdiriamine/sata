@@ -1,0 +1,90 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+
+</ion-header>
+
+
+<ion-content
+  style="background-image: url(../../assets/imgs/16.jpg)"
+  class="body-bg-full">
+  <div class="container page-container">
+    <div class="page-content">
+      <div class="logo"><img
+        src="https://lh6.googleusercontent.com/4zbxlGIJsqfF3a0YmDUSzZpOYyoORX_9a_uE8XYGg04w0MWGeeWzEDy0stoT5PwVGldrdo1_C12HqNPwUZD4=w1366-h662"
+        alt="" width="80"></div>
+      <form (ngSubmit)="signup()" #registerForm="ngForm"  novalidate >
+        <ion-row>
+          <ion-col col-12>
+            <div class="form-group">
+              <ion-select interface="popover" class="selector" placeholder="Role" id="role" [(ngModel)]="userData.role" name="role" required>
+                <ion-option value="1" class="option"
+                            text-wrap>Company</ion-option>
+                <ion-option value="2" class="option"
+                            text-wrap>Pharmacy</ion-option>
+                <ion-option value="3" class="option"
+                            text-wrap>Doctor</ion-option>
+                <ion-option value="4" class="option"
+                            text-wrap>Patient</ion-option>
+              </ion-select>
+            </div>
+          </ion-col>
+        </ion-row>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="text" placeholder="first name" [(ngModel)]="userData.first_name" name="first_name" class="form-control" required #first_name="ngModel"></ion-input>
+        </div>
+        <small [hidden]="first_name.valid || (first_name.pristine && !registerForm.submitted)">
+          Enter your first name.
+        </small>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="text" placeholder="last name" [(ngModel)]="userData.last_name" name="last_name" class="form-control" required #last_name="ngModel"></ion-input>
+        </div>
+        <small [hidden]="last_name.valid || (last_name.pristine && !registerForm.submitted)">
+          Enter your last name.
+        </small>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="tel" placeholder="phone number" [(ngModel)]="userData.phone_number" name="phone_number" class="form-control" required #phone_number="ngModel"></ion-input>
+        </div>
+        <small [hidden]="phone_number.valid || (phone_number.pristine && !registerForm.submitted)">
+          Enter your phone number.
+        </small>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="text" placeholder="adresse" [(ngModel)]="userData.address" name="address" class="form-control" required ></ion-input>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="email" placeholder="Email" [(ngModel)]="userData.email" name="email" class="form-control" required pattern="^[a-zA-Z0-9._]+[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" #email="ngModel"></ion-input>
+          <small [hidden]="email.valid || (email.pristine && !registerForm.submitted)">
+            Email is required and format should be <i>john@doe.com</i>.
+          </small>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <ion-input type="password" placeholder="Password" [(ngModel)]="userData.password" name="password" class="form-control" required></ion-input>
+        </div>
+      </div>
+        <hr>
+      <button  ion-button full color="success" type="submit" class="btn-lg btn btn-primary btn-rounded btn-block"   [disabled]="!registerForm.form.valid">Sign up</button>
+      </form>
+      <hr>
+      <div class="clearfix">
+        <p class="text-muted mb-0 pull-left">Already have an account? </p><a (click)="goLoginPage()"
+                                                                             class="inline-block pull-right">Sign In</a>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,146 @@
+{
+  "_comment": "Chinese Language",
+  "LANDING_PAGE": {
+    "REGISTRATION": "注册",
+    "LOGIN": "登录",
+    "SKIP": "跳跃"
+  },
+  "REGISTRATION": {
+    "USERNAME": "用户名",
+    "EMAIL": "电子邮件",
+    "PASSWORD": "密码",
+    "CONFIRM_PASSWORD": "确认密码",
+    "CREATE_ACCOUNT": "创建帐号",
+    "SKIP": "跳跃"
+  },
+  "LOGIN": {
+    "EMAIL": "电子邮件",
+    "PASSWORD": "密码",
+    "LOGIN": "登录",
+    "SKIP": "跳跃",
+    "FORGET_PASSWORD": "忘记密码"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "忘记密码",
+    "SUBTITLE": "请输入电邮地址",
+    "EMAIL": "电子邮件",
+    "CANCEL": "取消",
+    "SEND": "发送"
+  },
+  "PROFILE": {
+    "TITLE": "简介",
+    "NAME": "Afroza Yasmin",
+    "DESIGNATION": "软件工程师",
+    "DETAILS": "我是面向细节的软件开发人员，他在使用NodeJs，AngularJs，C＃，JavaScript等各种技术的复杂项目团队中拥有领导和工作经验。总是尽我所能，在充满挑战的环境中使用我的所有 技能和努力在不同领域探索，并寻求持续学习的机会。",
+    "TIMELINE": "时间线",
+    "ABOUTME": "关于我",
+    "FRIENDS": "朋友",
+    "GALLERY": "画廊",
+    "ABOUTME_TAB": {
+      "BASIC_INFOS": "基本信息",
+      "CONTACT_INFOS": "联系我们",
+      "CHECK_INS": "入住"
+    }
+  },
+  "CALENDAR": {
+    "TITLE": "日历",
+    "CALENDAR_VIEW": "日历视图",
+    "CALENDAR_LIST": "日历列表"
+  },
+  "GOOGLE_MAP": {
+    "TITLE": "谷歌地图",
+    "STANDARD": "标准",
+    "SILVER": "银",
+    "NIGHT": "晚",
+    "DARK": "黑暗",
+    "AUBERGINE": "茄子"
+  },
+  "CHART": {
+    "TITLE": "图表",
+    "BAR": "酒吧",
+    "DOUGHNUT": "甜甜圈",
+    "PIE": "馅饼",
+    "POLAR": "极性",
+    "DYNAMIC": "动态",
+    "RADAR": "雷达"
+  },
+  "ECOMMERCE": {
+    "TITLE": "电子商务"
+  },
+  "LATEST_NEWS": {
+    "TITLE": "最新消息"
+  },
+  "LANGUAGES": [
+    {
+      "ID": "en",
+      "VALUE": "英语"
+    },
+    {
+      "ID": "es",
+      "VALUE": "西班牙语"
+    },
+    {
+      "ID": "ar",
+      "VALUE": "阿拉伯"
+    },
+    {
+      "ID": "zh",
+      "VALUE": "中文"
+    }
+  ],
+  "SETTINGS": {
+    "TITLE": "设置",
+    "LANGUAGE": "语言",
+    "NOTIFICATION": "通知",
+    "PUSH_NOTIFICATION": "推送通知",
+    "MESSAGE_PREVIEW": "消息预览",
+    "NEW_MESSAGE_POPUP": "新消息弹出",
+    "ADJUST_DISPLAY": "调整显示"
+  },
+  "SEARCH": {
+    "TITLE": "搜索"
+  },
+  "CONTACT_US": {
+    "TITLE": "联系我们",
+    "GET_IN_TOUCH": "保持联系",
+    "ADDRESS": "地址",
+    "CONTACT_FORM": "联系表",
+    "SEND_MESSAGE": "发信息",
+    "NAME": "名称",
+    "EMAIL": "电子邮件",
+    "YOUR_MESSAGE": "你的信息"
+  },
+  "ABOUTUS": {
+    "TITLE": "关于我们",
+    "SUBTITLE": "Fulcrum是一个干净和Ionic 2应用程序."
+  },
+  "COMPONENTS": {
+    "TITLE": "零件",
+    "PROFILE": "简介",
+    "CALENDAR": "日历",
+    "MAP": "地图",
+    "CHART": "图表",
+    "ECOMMERCE": "电子商务",
+    "NEWS_FEED": "新闻稿",
+    "CHAT": "聊天",
+    "LATEST_NEWS": "最新消息",
+    "ABOUTUS": "关于我们",
+    "CONTACTUS": "联系我们"
+  },
+  "MENU_ITEMS": {
+    "PROFILE": "简介",
+    "CALENDAR": "日历",
+    "GOOGLEMAP": "谷歌地图",
+    "CHART": "图表",
+    "ECOMMERCE": "电子商务",
+    "LATESTNEWS": "最新消息",
+    "NEWSFEED": "新闻稿",
+    "CHAT": "聊天",
+    "COMOPNENT": "零件",
+    "ABOUTUS": "关于我们",
+    "CONTACTUS": "联系我们",
+    "SETTINGS": "设置",
+    "SEARCH": "搜索"
+  },
+  "LOGOUT": "登出"
+}

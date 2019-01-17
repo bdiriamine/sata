@@ -1,0 +1,83 @@
+<!--
+  Generated template for the EntreprisesListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+
+  <ion-navbar color="navbarColor">
+    <button ion-button menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>entreprises-list</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="cards-bg">
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <!--<ion-list>
+    <ion-item *ngFor="let item of items">
+      {{ item }}
+    </ion-item>
+  </ion-list>-->
+  <!--  <ion-card *ngFor="let item of items">
+    <img [src]="item.thumbnailUrl"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+  </ion-card>-->
+  <ion-list [virtualScroll]="items" >
+    <ion-item *virtualItem="let item;" no-lines no-padding>
+    <ion-card  class="card">
+    <img [src]="item.thumbnailUrl"/>
+    <ion-card-content>
+      <ion-card-title style="font-weight: bold">
+        {{item.title}}
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+      </p>
+      <ion-grid no-padding>
+    <ion-row>
+      <ion-col>
+        <button ion-button clear  small color="danger" icon-start>
+          <ion-icon name='star'></ion-icon>
+          Follow
+        </button>
+      </ion-col>
+      <ion-col >
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name="home"></ion-icon>
+          Show Profile
+        </button>
+      </ion-col>
+      </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+    </ion-item>
+  </ion-list>
+
+  <!--<ion-list *ngFor="let item of items">
+    <ion-item>
+      <ion-avatar item-start>
+        <img [src]="item.thumbnailUrl">
+      </ion-avatar>
+      <h2>{{item.title}}</h2>
+      <p>The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.</p>
+      <ion-note item-end>3:43 pm</ion-note>
+    </ion-item>
+  </ion-list>-->
+
+</ion-content>

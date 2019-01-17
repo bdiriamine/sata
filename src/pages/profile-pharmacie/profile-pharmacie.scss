@@ -1,0 +1,153 @@
+page-profile-pharmacie {
+    ::-webkit-scrollbar,
+    *::-webkit-scrollbar {
+      display: none;
+    }
+    ion-content {
+  
+      background: linear-gradient(0deg, #eeeef1 0%, white 80%, white 100%);
+    }
+    button,
+    ion-button,
+    .button-md,
+    .button-ios {
+      text-transform: none !important;
+    }
+    p {
+      color: #444;
+    }
+    // Cover image
+    #profile-bg {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      margin-top: -3px;
+      height: 335px;
+      background-size: cover !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      background-attachment: scroll;
+      box-shadow: 1px 1px 37px 0 #000;
+  
+    }
+    // Profile content
+    #content {
+  
+      position: relative;
+      margin-top: 150px;
+      //padding-top: 150px;
+      text-align: center;
+    }
+    #profile-image {
+      display: block;
+      border-radius: 35%;
+      width: auto;
+      height: 100px;
+      margin: 0 auto 0;
+      box-shadow: 0px 11px 20px -3px rgba(142, 136, 146, 0.75);
+      overflow:hidden;
+      -webkit-border-radius:70px;
+      -moz-border-radius:70px;
+      border-radius:70px;
+      border-background:#fff;
+     
+       border: 2px solid rgb(244, 89, 66);
+    }
+    #profile-info {
+      position: absolute;
+      top: -95px;
+      width: 100%;
+      z-index: 2;
+      text-align: center;
+    }
+    #profile-name {
+      color: #ffffff;
+      font-size: 15px;
+    }
+    .profile-description {
+  
+      font-size: 13px;
+      color: #fff;
+    }
+    .follow-button {
+      //position: relative;
+      //top: -10px  ;
+      text-transform: none;
+      overflow:hidden;
+      -webkit-border-radius:70px;
+      -moz-border-radius:70px;
+      border-radius:70px;
+      border-background:#fff;
+     
+       border: 2px solid rgb(245, 245, 245);
+  
+    }
+    // Following, Followers and all..
+    .profile-numbers {
+      /*position: relative;
+      top: -160px;*/
+  
+  
+      p {
+        color: #444;
+        font-size: small;
+        margin-bottom: 3px;
+      }
+      span {
+        font-weight: bold;
+        font-size: 2rem;
+        color: #34354c;
+      }
+    }
+    hr {
+      position: relative;
+      top: 0px;
+      border: 0;
+      height: 1px;
+      background: #d60e18;
+      background: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, rgb(46, 192, 255) 50%, hsla(0, 0%, 100%, 0) 100%);
+    }
+    // Posts feed
+    .posts {
+      position: relative;
+      top: 140px;
+      background-color: transparent;
+      text-align: justify;
+      ion-list{padding: 25px 10px 25px 10px;}
+  
+    }
+    .ion-segment-button-active {
+      background-color: #d60e18;
+    }
+    .followerslist{
+      background: #85ffc4;
+      background: -moz-linear-gradient(-45deg, #85ffc4 0%, #71e3f7 97%);
+      background: -webkit-linear-gradient(-45deg, #85ffc4 0%,#71e3f7 97%);
+      background: linear-gradient(135deg, #85ffc4 0%,#71e3f7 97%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85ffc4', endColorstr='#71e3f7',GradientType=1 );
+      background-size: 68px 68px;
+      background-repeat: no-repeat;
+      padding-bottom: 20px;
+      span{
+        font-size: large;
+        font-family: Arial;
+      }
+  
+    }
+    .followinglist{
+      background: #ff5f57;
+      background: -moz-linear-gradient(-45deg, #ff5f57 0%, #ff8d87 55%, #fc8f8f 96%);
+      background: -webkit-linear-gradient(-45deg, #ff5f57 0%,#ff8d87 55%,#fc8f8f 96%);
+      background: linear-gradient(135deg, #ff5f57 0%,#ff8d87 55%,#fc8f8f 96%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5f57', endColorstr='#fc8f8f',GradientType=1 );
+      background-size: 68px 68px;
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+      padding-bottom: 20px;
+      span{
+        font-size: large;
+        font-family: Arial;
+      }
+    }
+}

@@ -1,0 +1,30 @@
+<!-- Google map Page -->
+
+<!--
+  - Five types of map applied separately with individual tab component
+  - This file contains five tabs and every tab contain single map component
+-->
+
+<!-- Header part -->
+<ion-header no-border>
+  <ion-navbar color="white" hideBackButton>
+    <button ion-button menuToggle color="color1">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Google Map</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="showPrompt()" >Add
+        <ion-icon ios="ios-pin" md="md-pin"></ion-icon>
+     </button>
+   </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!-- Content part -->
+<ion-content>
+  <ion-tabs color="color1">
+    <ion-tab tabTitle=" Map Standar" [root]="StandardMap"></ion-tab>
+    <ion-tab tabTitle="Search" [root]="SearchDoc"></ion-tab>
+   
+  </ion-tabs>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+
+
+
+</ion-header>
+
+
+<ion-content style="background-image: url(../../assets/imgs/16.jpg)" class="body-bg-full" >
+
+  <div class="container page-container">
+    <div class="page-content">
+      <div class="logo"><img src="assets/imgs/logo-light.png" width="80"></div>
+      <form (ngSubmit)="login()" #registerForm="ngForm">
+        <div class="form-group">
+          <div class="col-xs-12">
+            <ion-input type="email" placeholder="email" [(ngModel)]="userData.email" name="email" class="form-control" required ></ion-input>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <ion-input type="password" placeholder="Password" [(ngModel)]="userData.password" name="password" class="form-control" required></ion-input>
+          </div>
+        </div>
+        <div class="form-group">
+          <div text-left class="col-xs-12">
+            <div text-right><a (click)="goForgetPasswordPage()" class=" form-control-static">Forgot a Passowrd?</a></div>
+          </div>
+        </div>
+        <button ion-button full color="success" type="submit" class="btn-lg btn btn-primary btn-rounded btn-block" [disabled]="!registerForm.form.valid">Sign in</button>
+      </form>
+      <hr>
+      <div class="clearfix">
+        <p class="text-muted mb-0 pull-left">Want new account?</p><a (click)="goRegitrePage()"  class="inline-block pull-right">Sign Up</a>
+      </div>
+    </div>
+  </div>
+
+
+</ion-content>

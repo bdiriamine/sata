@@ -1,0 +1,21 @@
+chat {
+    #chatlist-v1 {
+        .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+          border-bottom: 0.55px solid rgba(255, 255, 255, 0.5);
+        }
+        .scroll-content {
+          margin-top: 0px;
+        }
+        ion-list {
+          ion-item {
+            ion-avatar {
+              img {
+                width: 50px;
+                height: 50px;
+                border-radius: 38%;
+              }
+            }
+          }
+        }
+      }
+}

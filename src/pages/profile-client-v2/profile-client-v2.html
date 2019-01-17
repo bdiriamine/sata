@@ -1,0 +1,78 @@
+
+<ion-header>
+
+  <ion-navbar color="navbarColor">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title >ClientV2</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content  no-padding>
+
+  <div id="profile-bg" [ngStyle]="{'background-image': 'url(' + user.coverImage +')'}"></div>
+  <div style="background-color: #ffffff;background-size: cover">
+    <div id="content" >
+      <div id="profile-info" padding>
+        <img id="profile-image" [src]="user.profileImage">
+        <h3 id="profile-name">{{user.name}}</h3>
+        <button ion-button small round class="follow-button">Follow</button>
+      </div>
+      <ion-row class="profile-numbers">
+        <ion-col col-xs-4 style="text-align: left;">
+          <p>Followers</p>
+          <span>{{user.followers}}</span>
+        </ion-col>
+        <ion-col col-xs-4 style="text-align: right;">
+          <p>Posts</p>
+          <span>{{user.posts}}</span>
+        </ion-col>
+      </ion-row>
+
+    </div>
+    <hr/>
+  </div>
+  <div no-padding class="navbarColor posts">
+    <ion-segment class="navbarColor" [(ngModel)]="pet">
+      <ion-segment-button value="Map">
+        Map
+      </ion-segment-button>
+      <ion-segment-button value="About">
+        About
+      </ion-segment-button>
+      <ion-segment-button value="Post">
+        Post
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  <div class="posts" [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'Map'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-puppy-1.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'About'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-kitten-1.jpg">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'Post'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-kitten-1.jpg">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+      </ion-item>
+    </ion-list>
+  </div>
+
+</ion-content>

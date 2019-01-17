@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules\\node-sass\\src",
+    "\\node_modules\\node-sass\\src\\libsass",
+    "\\node_modules\\node-sass\\src\\libsass\\win",
+    "\\src",
+    "\\src\\pages",
+    "\\src\\pages\\profile-client",
+    "\\src\\pages\\profile-entreprise"
+  ],
+  "SelectedNode": "\\src\\pages\\profile-entreprise\\profile-entreprise.ts",
+  "PreviewInSolutionExplorer": false
+}

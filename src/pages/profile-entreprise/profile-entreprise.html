@@ -1,0 +1,89 @@
+
+<ion-header>
+
+  <ion-navbar color="navbarColor">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title >Entreprises</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content no-bounce overflow-scroll="false">
+  <ion-scroll class="story" scrollX="true" no-bounce overflow-scroll="false">
+    <div class="story_scroll" *ngFor="let s of items" style="text-align:center;">
+      <div class="story_img_bg" >
+        <img no-margin no-padding class="story_img" [src]="s.thumbnailUrl"></div>
+      <!--<p no-margin no-padding text-center class="story_text">{{ s.id }}</p>-->
+      <button ion-button round no-padding no-margin class="story_text" small >follow</button>
+    </div>
+  </ion-scroll>
+  <div  style="margin:0;text-align: right;background-color: #f2f2f2;" >
+  <p style="margin:0;color: #0FB3FF; " (click)="showMore()">more...</p>
+  </div>
+    <hr no-margin no-padding>
+
+</ion-content>
+<!--<ion-content class="cards-bg">
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  &lt;!&ndash;<ion-list>
+    <ion-item *ngFor="let item of items">
+      {{ item }}
+    </ion-item>
+  </ion-list>&ndash;&gt;
+  &lt;!&ndash;  <ion-card *ngFor="let item of items">
+    <img [src]="item.thumbnailUrl"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+  </ion-card>&ndash;&gt;
+  <ion-card *ngFor="let item of items">
+
+    <img [src]="item.thumbnailUrl" width="50%"/>
+
+    <ion-card-content>
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+      </p>
+      <ion-grid no-padding>
+    <ion-row>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name='star'></ion-icon>
+          Follow
+        </button>
+      </ion-col>
+      <ion-col >
+        <button ion-button clear small color="danger" icon-start>
+          <ion-icon name='home'></ion-icon>
+          Show Profile
+        </button>
+      </ion-col>
+      </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  &lt;!&ndash;<ion-list *ngFor="let item of items">
+    <ion-item>
+      <ion-avatar item-start>
+        <img [src]="item.thumbnailUrl">
+      </ion-avatar>
+      <h2>{{item.title}}</h2>
+      <p>The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.</p>
+      <ion-note item-end>3:43 pm</ion-note>
+    </ion-item>
+  </ion-list>&ndash;&gt;
+
+</ion-content>-->

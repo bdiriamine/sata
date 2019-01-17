@@ -1,0 +1,146 @@
+{
+  "_comment": "English Language",
+  "LANDING_PAGE": {
+    "REGISTRATION": "Registration",
+    "LOGIN": "Login",
+    "SKIP": "Skip"
+  },
+  "REGISTRATION": {
+    "USERNAME": "Username",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "CREATE_ACCOUNT": "Create Account",
+    "SKIP": "Skip"
+  },
+  "LOGIN": {
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "LOGIN": "Login",
+    "SKIP": "Skip",
+    "FORGET_PASSWORD": "Forget Password"
+  },
+  "FORGET_PASSWORD": {
+    "TITLE": "Forget Password",
+    "SUBTITLE": "Enter Email Address",
+    "EMAIL": "Email",
+    "CANCEL": "Cancel",
+    "SEND": "Send"
+  },
+  "PROFILE": {
+    "TITLE": "Profile",
+    "NAME": "Afroza Yasmin",
+    "DESIGNATION": "Software Engineer",
+    "DETAILS": "I am detail-oriented software developer with experience leading and working in teams on complex projects using a wide range of technologies such as NodeJs, AngularJs,C#, JavaScript etc. Always I try to give my best to work in a challenging environment using all my skills and efforts to explore in different fields and seek an opportunity for continuous learning.",
+    "TIMELINE": "Timeline",
+    "ABOUTME": "About Me",
+    "FRIENDS": "Friends",
+    "GALLERY": "Gallery",
+    "ABOUTME_TAB": {
+      "BASIC_INFOS": "Basic Infos",
+      "CONTACT_INFOS": "Contact Infos",
+      "CHECK_INS": "Check-Ins"
+    }
+  },
+  "CALENDAR": {
+    "TITLE": "Calendar",
+    "CALENDAR_VIEW": "Calendar View",
+    "CALENDAR_LIST": "Calendar List"
+  },
+  "GOOGLE_MAP": {
+    "TITLE": "Google Map",
+    "STANDARD": "Standard",
+    "SILVER": "Silver",
+    "NIGHT": "Night",
+    "DARK": "Dark",
+    "AUBERGINE": "Aubergine"
+  },
+  "CHART": {
+    "TITLE": "Chart",
+    "BAR": "Bar",
+    "DOUGHNUT": "Doughnut",
+    "PIE": "Pie",
+    "POLAR": "Polar",
+    "DYNAMIC": "dynamic",
+    "RADAR": "radar"
+  },
+  "ECOMMERCE": {
+    "TITLE": "Ecommerce"
+  },
+  "LATEST_NEWS": {
+    "TITLE": "Latest News"
+  },
+  "LANGUAGES": [
+    {
+      "ID": "en",
+      "VALUE": "English"
+    },
+    {
+      "ID": "es",
+      "VALUE": "Spanish"
+    },
+    {
+      "ID": "ar",
+      "VALUE": "Arabic"
+    },
+    {
+      "ID": "zh",
+      "VALUE": "Chinese"
+    }
+  ],
+  "SETTINGS": {
+    "TITLE": "Settings",
+    "LANGUAGE": "Language",
+    "NOTIFICATION": "Notification",
+    "PUSH_NOTIFICATION": "Push Notification",
+    "MESSAGE_PREVIEW": "Message Preview",
+    "NEW_MESSAGE_POPUP": "New Message Popup",
+    "ADJUST_DISPLAY": "Adjust Display"
+  },
+  "SEARCH": {
+    "TITLE": "Search"
+  },
+  "CONTACT_US": {
+    "TITLE": "Contact Us",
+    "GET_IN_TOUCH": "Get in Touch",
+    "ADDRESS": "Address",
+    "CONTACT_FORM": "Contact Form",
+    "SEND_MESSAGE": "Send Message",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "YOUR_MESSAGE": "Your Message"
+  },
+  "ABOUTUS": {
+    "TITLE": "About us",
+    "SUBTITLE": "Fulcrumy is a clean and Ionic 2 app."
+  },
+  "COMPONENTS": {
+    "TITLE": "Component",
+    "PROFILE": "Profile",
+    "CALENDAR": "Calendar",
+    "MAP": "Map",
+    "CHART": "Chart",
+    "ECOMMERCE": "Ecommerce",
+    "NEWS_FEED": "News Feed",
+    "CHAT": "Chat",
+    "LATEST_NEWS": "Latest News",
+    "ABOUTUS": "About Us",
+    "CONTACTUS": "Contact Us"
+  },
+  "MENU_ITEMS": {
+    "PROFILE": "Profile",
+    "CALENDAR": "Calendar",
+    "GOOGLEMAP": "Google Map",
+    "CHART": "Chart",
+    "ECOMMERCE": "Ecommerce",
+    "LATESTNEWS": "Latest News",
+    "NEWSFEED": "NewsFeed",
+    "CHAT": "Chat",
+    "COMOPNENT": "Component",
+    "ABOUTUS": "About us",
+    "CONTACTUS": "Contact us",
+    "SETTINGS": "Settings",
+    "SEARCH": "Search"
+  },
+  "LOGOUT": "Logout"
+}
